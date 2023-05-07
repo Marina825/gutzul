@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/gutzul/static/css/main.0f7e6768.css",
-    "main.js": "/gutzul/static/js/main.31f9ec85.js",
+    "main.js": "/gutzul/static/js/main.9ad40473.js",
     "static/media/img-burley.jpg": "/gutzul/static/media/img-burley.0c7a5a66d84090a48cc8.jpg",
     "static/media/pot.jpg": "/gutzul/static/media/pot.a32fcf9c1e683b45bcf2.jpg",
     "static/media/tobacco.jpg": "/gutzul/static/media/tobacco.c1db06289cd40ec5a6f9.jpg",
@@ -11,10 +11,10 @@
     "static/media/tabak2.jpg": "/gutzul/static/media/tabak2.f4e2a2d80808f6ee9bcb.jpg",
     "index.html": "/gutzul/index.html",
     "main.0f7e6768.css.map": "/gutzul/static/css/main.0f7e6768.css.map",
-    "main.31f9ec85.js.map": "/gutzul/static/js/main.31f9ec85.js.map"
+    "main.9ad40473.js.map": "/gutzul/static/js/main.9ad40473.js.map"
   },
   "entrypoints": [
     "static/css/main.0f7e6768.css",
-    "static/js/main.31f9ec85.js"
+    "static/js/main.9ad40473.js"
   ]
 }
