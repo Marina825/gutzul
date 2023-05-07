@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/gutzul/static/css/main.0f7e6768.css",
+    "main.js": "/gutzul/static/js/main.31f9ec85.js",
+    "static/media/img-burley.jpg": "/gutzul/static/media/img-burley.0c7a5a66d84090a48cc8.jpg",
+    "static/media/pot.jpg": "/gutzul/static/media/pot.a32fcf9c1e683b45bcf2.jpg",
+    "static/media/tobacco.jpg": "/gutzul/static/media/tobacco.c1db06289cd40ec5a6f9.jpg",
+    "static/media/img-oriental.jpg": "/gutzul/static/media/img-oriental.aaf7b1d8524eeb677042.jpg",
+    "static/media/arrows.png": "/gutzul/static/media/arrows.8b589a40fa9d9f5bc15e.png",
+    "static/media/img-gutzul.jpg": "/gutzul/static/media/img-gutzul.ac1a0520cac72a58ac3b.jpg",
+    "static/media/tabak2.jpg": "/gutzul/static/media/tabak2.f4e2a2d80808f6ee9bcb.jpg",
+    "index.html": "/gutzul/index.html",
+    "main.0f7e6768.css.map": "/gutzul/static/css/main.0f7e6768.css.map",
+    "main.31f9ec85.js.map": "/gutzul/static/js/main.31f9ec85.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0f7e6768.css",
+    "static/js/main.31f9ec85.js"
+  ]
+}
