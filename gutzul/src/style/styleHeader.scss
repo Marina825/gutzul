@@ -1,0 +1,506 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Seymour+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=News+Cycle&display=swap");
+
+@media (min-width: 993px) {
+  .header {
+    width: auto;
+    min-width: 1460px;
+    height: 755px;
+    background-size: cover;
+    background-image: url("/img/pot.jpg");
+  }
+  .flex-header-list {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 40px;
+  }
+
+  .header-list-li {
+    font-family: "Quicksand", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    cursor: pointer;
+    color: #fcfcfc;
+    padding-bottom: 10px;
+  }
+  .button-header {
+    background: #f8d24e;
+    border-radius: 10px;
+    font-family: "Quicksand", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    justify-content: center;
+    width: 152px;
+    height: 42px;
+    color: #131313;
+    padding-top: 10px;
+    cursor: pointer;
+  }
+  .button-header-mobile-basket {
+    display: none;
+  }
+  .header-main {
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 120px;
+    justify-content: space-around;
+  }
+  .text-head {
+    font-family: "Seymour One";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 48px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #fcfcfc;
+  }
+  .button-head {
+    box-sizing: border-box;
+    background-color: transparent;
+    width: 250px;
+    height: 54px;
+    font-family: "Seymour One";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 18px;
+    color: #f8d24e;
+    cursor: pointer;
+    border: 2px solid #f8d24e;
+    border-radius: 10px;
+  }
+  .link-head {
+    font-family: "Seymour One";
+    color: #f8d24e;
+    text-decoration: revert;
+    padding-left: 35px;
+  }
+  .img-tobacco {
+    border-radius: 100px;
+  }
+  .flex-text-heder {
+    display: flex;
+    align-items: center;
+  }
+  .text-header {
+    font-family: "News Cycle", sans-serif;
+    font-style: normal;
+    font-size: 23px;
+    line-height: 28px;
+    color: white;
+    width: 450px;
+    height: 80px;
+    margin-left: 40px;
+    margin-bottom: 50px;
+  }
+  .image-header-gutzul {
+    width: 150px;
+  }
+  .href-header-buy-product {
+    color: #131313;
+  }
+  .button-header-list-li {
+    border: none;
+    font: inherit;
+    color: inherit;
+    background-color: transparent;
+    cursor: pointer;
+  }
+  .dropdown-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .dropdown-menu-list {
+    position: absolute;
+    margin-top: 15px;
+    width: 150px;
+  }
+  .link-dropdown-menu-list {
+    color: gray;
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    background-color: white;
+    height: 40px;
+    border-bottom: 2px solid rgba(132, 142, 151, 0.5);
+    justify-content: center;
+  }
+  .link-dropdown-menu-list:hover {
+    text-decoration: underline;
+  }
+  #triangle {
+    border-left: 7px solid transparent;
+    border-right: 7px solid transparent;
+    border-bottom: 20px solid rgb(255, 255, 255);
+  }
+  .drop-down-menu-header-list {
+    display: flex;
+    justify-content: center;
+  }
+  .dropdown-header-menu {
+    display: none;
+  }
+  .rounded-corners-dropdown-top {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  .rounded-corners-dropdown-down {
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+}
+@media (min-width: 481px) and (max-width: 992px) {
+  .header {
+    width: auto;
+    height: 475px;
+    background-size: cover;
+    background-image: url("/img/pot.jpg");
+  }
+  .flex-header-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 15px;
+    margin-left: 60px;
+    margin-right: 30px;
+  }
+  .header-list-li {
+    display: none;
+  }
+  .header-list-li {
+    font-family: "Quicksand", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    cursor: pointer;
+    color: #fcfcfc;
+  }
+  .button-header {
+    background: #f8d24e;
+    border-radius: 10px;
+    font-family: "Quicksand", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 17px;
+    display: flex;
+    justify-content: center;
+    max-width: 160px;
+    min-width: 140px;
+    height: 42px;
+    color: #131313;
+    padding-top: 10px;
+    cursor: pointer;
+  }
+  .button-header-mobile-basket {
+    display: none;
+  }
+  .header-main {
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 60px;
+    justify-content: space-around;
+  }
+  .text-head {
+    font-family: "Seymour One";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 48px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #fcfcfc;
+  }
+  .button-head {
+    box-sizing: border-box;
+    background-color: transparent;
+    width: 215px;
+    height: 45px;
+    font-family: "Seymour One";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    color: #f8d24e;
+    cursor: pointer;
+    border: 2px solid #f8d24e;
+    border-radius: 10px;
+  }
+
+  .link-head {
+    font-family: "Seymour One";
+    color: #f8d24e;
+    text-decoration: revert;
+    padding-left: 35px;
+  }
+  .img-tobacco {
+    width: 170px;
+    border-radius: 100px;
+  }
+  .flex-text-heder {
+    display: flex;
+    align-items: center;
+  }
+  .text-header {
+    font-family: "Roboto Slab", serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    color: white;
+    width: 250px;
+    height: 80px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+  }
+  .image-header-gutzul {
+    width: 110px;
+  }
+  .href-header-buy-product {
+    color: #131313;
+  }
+  .button-header-list-li {
+    border: none;
+    font: inherit;
+    color: inherit;
+    background-color: transparent;
+    cursor: pointer;
+  }
+  .dropdown-menu-list {
+    display: none;
+  }
+  .dropdown-header-menu-list {
+    display: flex;
+    flex-direction: column;
+    width: 460px;
+    height: 475px;
+    position: absolute;
+    background-color: #97af8d;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .flex-link-dropdown-header-menu-list {
+    display: flex;
+    height: 350px;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .link-dropdown-header-menu-list {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-size: 35px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #fcfcfc;
+  }
+  .link-dropdown-header-menu-list:hover {
+    color: #131313;
+  }
+  .icon-dropdown-header {
+    width: 45px;
+  }
+  .flex-button-dropdown-header {
+    display: flex;
+    width: 475px;
+    justify-content: space-between;
+    padding-left: 40px;
+    padding-top: 20px;
+    padding-right: 40px;
+  }
+}
+@media (min-width: 320px) and (max-width: 480px) {
+  .header {
+    width: auto;
+    height: 475px;
+    background-size: cover;
+    background-image: url("/img/pot.jpg");
+  }
+  .flex-header-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 15px;
+    margin-left: 40px;
+    margin-right: 30px;
+  }
+  .header-list-li {
+    display: none;
+  }
+  .header-list-li {
+    font-family: "Quicksand", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    cursor: pointer;
+    color: #fcfcfc;
+  }
+  .button-header {
+    background: #f8d24e;
+    border-radius: 10px;
+    font-family: "Quicksand", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    justify-content: center;
+    width: 152px;
+    height: 42px;
+    color: #131313;
+    padding-top: 10px;
+    cursor: pointer;
+  }
+  .button-header-desktop {
+    display: none;
+  }
+  .button-header-mobile-basket {
+    background: #f8d24e;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    border: none;
+    outline: none;
+  }
+  .header-main {
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+    justify-content: space-around;
+  }
+  .text-head {
+    font-family: "Seymour One";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 48px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #fcfcfc;
+  }
+  .button-head {
+    box-sizing: border-box;
+    background-color: transparent;
+    max-width: 190px;
+    min-width: 160px;
+    height: 45px;
+    font-family: "Seymour One";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 18px;
+    color: #f8d24e;
+    cursor: pointer;
+    border: 2px solid #f8d24e;
+    border-radius: 10px;
+  }
+
+  .link-head {
+    font-family: "Seymour One";
+    color: #f8d24e;
+    text-decoration: revert;
+    padding-left: 35px;
+  }
+  .img-tobacco {
+    width: 150px;
+    border-radius: 100px;
+  }
+  .flex-text-heder {
+    display: flex;
+    align-items: center;
+  }
+  .text-header {
+    font-family: "Roboto Slab", serif;
+    font-style: normal;
+    /* font-weight: 400; */
+    font-size: 13px;
+    line-height: 14px;
+    color: white;
+    max-width: 230px;
+    min-width: 120px;
+    min-height: 80px;
+    /* max-height: 100px; */
+    margin-left: 20px;
+    margin-bottom: 30px;
+    margin-right: 20px;
+  }
+  .image-header-gutzul {
+    width: 110px;
+  }
+  .href-header-buy-product {
+    color: #131313;
+  }
+  .button-header-list-li {
+    border: none;
+    font: inherit;
+    color: inherit;
+    background-color: transparent;
+    cursor: pointer;
+  }
+  .dropdown-menu-list {
+    display: none;
+  }
+  .dropdown-header-menu-list {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-width: 323px;
+    height: 475px;
+    max-width: 450px;
+    position: absolute;
+    background-color: #97af8d;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .flex-link-dropdown-header-menu-list {
+    display: flex;
+    height: 350px;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .link-dropdown-header-menu-list {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-size: 35px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #fcfcfc;
+  }
+  .link-dropdown-header-menu-list:hover {
+    color: #131313;
+  }
+  .icon-dropdown-header {
+    width: 45px;
+  }
+  .flex-button-dropdown-header {
+    display: flex;
+    width: 475px;
+    min-width: 330px;
+    width: 100%;
+    max-width: 430px;
+    /* height: 475px; */
+    justify-content: space-between;
+    padding-left: 40px;
+    padding-top: 20px;
+    padding-right: 40px;
+  }
+}

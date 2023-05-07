@@ -1,0 +1,373 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Seymour+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@200&display=swap");
+@media (min-width: 993px) {
+  .main {
+    background: #f5f5f5;
+    width: auto;
+    min-width: 1460px;
+    height: 1000px;
+  }
+  .main-header {
+    font-family: "Seymour One";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 45px;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #131313;
+  }
+  .main-header:first-child {
+    padding-top: 50px;
+    padding-bottom: 15px;
+    font-weight: 800;
+    font-size: 36px;
+    text-transform: uppercase;
+  }
+  .product-main {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 200px;
+  }
+  .berli-block {
+    width: 370px;
+    max-height: 550px;
+    background: #aec6a5;
+    box-shadow: 0px 8px 30px rgba(212, 20, 67, 0.1);
+    border-radius: 24px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+  }
+  .oriental-block {
+    width: 370px;
+    max-height: 550px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    background: #efd478;
+    border-radius: 24px;
+    flex-direction: column;
+    align-items: center;
+  }
+  .image-product {
+    position: relative;
+    top: -135px;
+    width: 301.76px;
+    height: 300.29px;
+    border-radius: 50%;
+  }
+  .head-product-block {
+    font-family: "Nunito", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 37px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #131313;
+    margin-bottom: 30px;
+  }
+  .head-product-block-oriental {
+    margin-bottom: 20px;
+  }
+  .text-product-block {
+    font-family: "Nunito", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 176%;
+    width: 242px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #131313;
+    margin-bottom: 30px;
+  }
+  .text-product-block-oriental {
+    margin-bottom: 20px;
+  }
+  .content-block {
+    display: flex;
+    height: 300px;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    top: -100px;
+    justify-content: space-between;
+  }
+  .arrow-content-block {
+    width: 70px;
+    height: 40px;
+  }
+  .button-main-description-oriental {
+    border: none;
+    outline: none;
+    background-color: #efd478;
+    cursor: pointer;
+  }
+  .button-main-description-burley {
+    border: none;
+    outline: none;
+    background-color: #aec6a5;
+    cursor: pointer;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 992px) {
+  .main {
+    background: #f5f5f5;
+    width: auto;
+    max-width: 992px;
+    max-height: 950px;
+    min-height: 850px;
+  }
+  .main-header {
+    font-family: "Seymour One";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 45px;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #131313;
+  }
+  .main-header:first-child {
+    padding-top: 50px;
+    padding-bottom: 15px;
+    font-weight: 800;
+    font-size: 25px;
+    text-transform: uppercase;
+  }
+  .product-main {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 200px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .berli-block {
+    width: 300px;
+    max-height: 450px;
+    max-width: 270px;
+    min-width: 190px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    background: #aec6a5;
+    box-shadow: 0px 8px 30px rgba(212, 20, 67, 0.1);
+    border-radius: 24px;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 10px;
+  }
+  .oriental-block {
+    width: 300px;
+    max-height: 450px;
+    max-width: 270px;
+    min-width: 190px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    background: #efd478;
+    border-radius: 24px;
+    flex-direction: column;
+    align-items: center;
+  }
+  .image-product {
+    position: relative;
+    top: -90px;
+    max-width: 270px;
+    min-width: 200px;
+    min-height: 200px;
+    max-height: 270px;
+    border-radius: 50%;
+  }
+  .head-product-block {
+    font-family: "Nunito", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 37px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #131313;
+    margin-bottom: 30px;
+  }
+  .head-product-block-oriental {
+    margin-bottom: 20px;
+  }
+  .text-product-block {
+    font-family: "Nunito", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 156%;
+    max-height: 270px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #131313;
+    margin-bottom: 30px;
+    padding-left: 10px;
+    padding-right: 10px
+  }
+  .text-product-block-oriental {
+    margin-bottom: 20px;
+  }
+  .content-block {
+    display: flex;
+    max-height: 350px;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    top: -60px;
+  }
+
+  .arrow-content-block {
+    width: 70px;
+    height: 40px;
+  }
+  .button-main-description-oriental {
+    border: none;
+    outline: none;
+    background-color: #efd478;
+    cursor: pointer;
+  }
+  .button-main-description-burley {
+    border: none;
+    outline: none;
+    background-color: #aec6a5;
+    cursor: pointer;
+  }
+}
+@media (min-width: 320px) and (max-width: 480px){
+
+  .main {
+    background: #f5f5f5;
+    width: auto;
+    // max-width: 992px;
+    height: 1500px;
+  }
+  .main-header {
+    font-family: "Seymour One";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 45px;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #131313;
+  }
+  .main-header:first-child {
+    padding-top: 50px;
+    padding-bottom: 15px;
+    font-weight: 800;
+    font-size: 25px;
+    text-transform: uppercase;
+  }
+  .product-main {
+    display: flex;
+    margin-top: 70px;
+    flex-direction: column;
+    align-items: center;
+    min-height: 1250px;
+    justify-content: space-around;
+  }
+  .berli-block {
+    width: 300px;
+    max-height: 450px;
+    min-width: 200px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    background: #aec6a5;
+    box-shadow: 0px 8px 30px rgba(212, 20, 67, 0.1);
+    border-radius: 24px;
+    flex-direction: column;
+    align-items: center;
+  }
+  .oriental-block {
+    width: 300px;
+    max-height: 450px;
+    min-width: 200px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    background: #efd478;
+    border-radius: 24px;
+    flex-direction: column;
+    align-items: center;
+  }
+  .image-product {
+    position: relative;
+    top: -70px;
+    max-width: 270px;
+    min-width: 240px;
+    min-height: 240px;
+    max-height: 270px;
+    border-radius: 50%;
+  }
+  .head-product-block {
+    font-family: "Nunito", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 37px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #131313;
+    margin-bottom: 30px;
+  }
+  .head-product-block-oriental {
+    margin-bottom: 20px;
+  }
+  .text-product-block {
+    font-family: "Nunito", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    max-width: 169px;
+    font-size: 16px;
+    line-height: 156%;
+    max-width: 242px;
+    /* max-height: 170px; */
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #131313;
+    margin-bottom: 30px;
+  }
+  .text-product-block-oriental {
+    margin-bottom: 20px;
+  }
+  .content-block {
+    display: flex;
+    max-height: 350px;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    top: -50px;
+  }
+
+  .arrow-content-block {
+    width: 70px;
+    height: 40px;
+  }
+  .button-main-description-oriental {
+    border: none;
+    outline: none;
+    background-color: #efd478;
+    cursor: pointer;
+  }
+  .button-main-description-burley {
+    border: none;
+    outline: none;
+    background-color: #aec6a5;
+    cursor: pointer;
+  }
+
+}
