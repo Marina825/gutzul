@@ -1,13 +1,4 @@
-// .modal{
-//      position: absolute;
-//      display: flex;
-// width: 400px;
-// height: 400px;
-// background-color: aqua;
-// // z-index: 9999;
-// color:red;
-// text-align: center;
-// }
+
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&display=swap");
 @media (min-width: 993px) {
@@ -123,7 +114,6 @@
     justify-content: space-between;
     height: 50px;
     background: #74a661;
-    padding-bottom: 0px;
     align-items: center;
     border-radius: 7px;
     border-bottom-left-radius: 0px;
@@ -231,6 +221,7 @@
     border-bottom-left-radius: 0px;
     border-bottom-right-radius: 0px;
   }
+  
   .modal__content-main-text {
     font-family: "Nunito Sans", sans-serif;
     color: black;
@@ -240,13 +231,17 @@
     padding-bottom: 0px;
     padding-left: 40px;
     padding-right: 40px;
-    padding-top: 10px;
+    padding-top: 25px;
   }
   .modal-header {
     color: white;
     font-size: 28px;
     font-weight: 600;
-    margin-left: 20px;
+    margin-left: 40px;
+  
+  }
+  .modal-header-ageCheck{
+  margin-left: 0px;
   }
   .modal__content-main {
     background: #8ebc7c;
@@ -276,7 +271,7 @@
     box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
     z-index: 2;
     min-width: 350px;
-    min-height: 300px;
+    // min-height: 300px;
     margin-left: 10px;
     margin-right: 10px;
   }
@@ -285,7 +280,7 @@
     justify-content: space-evenly;
     cursor: pointer;
     padding-top: 25px;
-    padding-bottom: 25px;
+    padding-bottom: 30px;
   }
   .button-card {
     font-family: "Steppe";
@@ -307,18 +302,21 @@
     cursor: pointer;
   }
   .modal__content-main-ageCheck {
-    height: 250px;
+    
     background-color: #d2b552;
+    min-height: 210px;
   }
   .modal__content-header-ageCheck {
     background-color: #766528;
+    justify-content: center;
   }
-  .modal-ageCheck {
-    height: 300px;
-  }
+
   .button-card-ageCheck {
     background-color: #b59a37;
     border-radius: 10px;
     font-weight: 600;
+    min-width: 140px;
+    max-width: 160px;
+    font-size: 14px;
   }
 }

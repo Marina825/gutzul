@@ -28,7 +28,7 @@ class AgeCheckModal extends React.Component {
       <div className="modal-overlay">
         <div className="modal modal-ageCheck">
           <div className="modal__content-header modal__content-header-ageCheck">
-            <h2 className="modal-header">ВНИМАНИЕ!</h2>
+            <h2 className="modal-header modal-header-ageCheck">ВНИМАНИЕ!</h2>
           </div>
           <div className="modal__content-main modal__content-main-ageCheck">
             <h3 className="modal__content-main-text">
@@ -47,7 +47,7 @@ class AgeCheckModal extends React.Component {
                 onClick={this.handleNo}
                 className="button-card button-card-ageCheck"
               >
-                Ні,мені не виповнилося 18 років
+                Ні,мені не має 18 років
               </button>
             </div>
           </div>

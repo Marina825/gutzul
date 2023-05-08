@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { useState } from "react";
-import imgHeader from "../img/tabak2.jpg";
+import imgHeader from "../img/img-tobacco-header.jpg";
 import hookahLogo from "../img/hookah-logo.png";
 import imgGutzul from "../img/img-gutzul.jpg";
 import iconCross from "../img/icons-cross.png";

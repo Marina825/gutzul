@@ -9,7 +9,7 @@
     min-width: 1460px;
     height: 755px;
     background-size: cover;
-    background-image: url("/img/pot.jpg");
+    background-image: url("/img/image-header.jpg");
   }
   .flex-header-list {
     display: flex;
@@ -166,7 +166,7 @@
     width: auto;
     height: 475px;
     background-size: cover;
-    background-image: url("/img/pot.jpg");
+    background-image: url("/img/image-header.jpg");
   }
   .flex-header-list {
     display: flex;
@@ -329,15 +329,16 @@
     width: auto;
     height: 475px;
     background-size: cover;
-    background-image: url("/img/pot.jpg");
+    background-image: url("/img/image-header.jpg");
   }
   .flex-header-list {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding-top: 15px;
-    margin-left: 40px;
-    margin-right: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+
   }
   .header-list-li {
     display: none;
@@ -382,7 +383,7 @@
     height: 400px;
     display: flex;
     flex-direction: column;
-    margin-left: 40px;
+    margin-left: 30px;
     justify-content: space-around;
   }
   .text-head {
