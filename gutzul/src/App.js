@@ -1,29 +1,20 @@
-
-import React, { Component } from "react";
-import Header from "./Component/Header";
-import Main from "./Component/Main";
-import Section from "./Component/Section";
-import Modal from "./Component/AgeCheckModal";
-import Footer from "./Component/Footer";
-// import Test from "./Component/Dropdown";
-import "./style/reset.scss"
-import "./style/normalize.scss";
-import "./style/styleHeader.scss";
-import "./style/styleMain.scss";
-import "./style/styleSection.scss";
-import "./style/styleFooter.scss";
-import "./style/modal.scss";
-class App extends Component {
-  render() {
-    return (
-      <div>
-        <Modal/>
-        <Header />
-        <Main />
-        <Section />
-        <Footer />
-      </div>
-    );
-  }
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Appendix from "./Component/Appendix";
+// import { AboutUs } from "./Component/AboutUs";
+// import Contact from "./Component/ContactPage";
+import ProductPage from "./Component/ProductPage";
+function App() {
+  return (
+    <BrowserRouter>
+      <Routes>
+        <Route path="/gutzul" element={<Appendix />} />
+        <Route index element={<Appendix />} />
+        {/* <Route path="aboutUs" element={<AboutUs />} /> */}
+        {/* <Route path="contact" element={<Contact />} /> */}
+        <Route path="products" element={<ProductPage />} />
+      </Routes>
+    </BrowserRouter>
+  );
 }
+
 export default App;

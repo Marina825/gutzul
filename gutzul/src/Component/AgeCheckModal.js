@@ -28,7 +28,7 @@ class AgeCheckModal extends React.Component {
       <div className="modal-overlay">
         <div className="modal modal-ageCheck">
           <div className="modal__content-header modal__content-header-ageCheck">
-            <h2 className="modal-header modal-header-ageCheck">ВНИМАНИЕ!</h2>
+            <h2 className="modal-header modal-header-ageCheck">Увага!</h2>
           </div>
           <div className="modal__content-main modal__content-main-ageCheck">
             <h3 className="modal__content-main-text">

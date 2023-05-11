@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "image": "/images/Citron2.0.jpg",
+    "name": "Lemon Drops (лимонні льодяники)",
+    "price": 250
+  },
+  {
+    "id": 2,
+    "image": "/images/Gluhwein.jpg",
+    "name": "Behemoth (чай з бергамотом)",
+    "price": 250
+  },
+  {
+    "id": 3,
+    "image": "/images/Ice-Apple.jpg",
+    "name": "Monomango (хвойний манго)",
+    "price": 250
+  },
+  {
+    "id": 4,
+    "image": "./images/Citron2.0.jpg",
+    "name": "Old Cherry (стигла вишня )",
+    "price": 250
+  },
+  {
+    "id": 5,
+    "image": "/images/Citron2.0.jpg",
+    "name": "Spicy Cola (кола  зі спеціями)",
+    "price": 250
+  },
+  {
+    "id": 6,
+    "image": "/images/Citron2.0.jpg",
+    "name": "Citron (цитрус)",
+    "price": 250
+  },
+  {
+    "id": 7,
+    "image": "/images/Gluhwein.jpg",
+    "name": "Ice Apple (айс яблуко)",
+    "price": 250
+  },
+  {
+    "id": 8,
+    "image": "/images/Gluhwein.jpg",
+    "name": "Blueberry Mint (чорниця-мя'та)",
+    "price": 250
+  }
+]

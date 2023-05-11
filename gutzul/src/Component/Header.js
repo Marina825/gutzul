@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { useState } from "react";
+import { Link } from "react-router-dom";
 import imgHeader from "../img/img-tobacco-header.jpg";
 import hookahLogo from "../img/hookah-logo.png";
 import imgGutzul from "../img/img-gutzul.jpg";
@@ -58,7 +59,8 @@ const Header = () => {
         </div>
       )}
 
-      <div className="header-list">
+     
+<div className="header-list">
         <ul className="flex-header-list">
           <button
             className=" button-header-list-li"
@@ -68,8 +70,16 @@ const Header = () => {
             <img src={hookahLogo} alt="icon"></img>
           </button>
 
-          <li className="header-list-li">Головна</li>
-          <li className="header-list-li">Про нас</li>
+          <Link to="/" className="header-list-li">
+            Головна
+          </Link>
+          <Link to="/aboutUs" className="header-list-li">
+            Про нас
+          </Link>
+
+
+
+
           <div className="dropdown-header">
             <li className="header-list-li">
               {" "}
@@ -84,18 +94,18 @@ const Header = () => {
               <div className="drop-down-menu-header-list">
                 <div id="triangle"></div>
                 <ul className="dropdown-menu-list">
-                  <a
-                    href="#"
+                  <Link
+                    to="/products"
                     className="link-dropdown-menu-list rounded-corners-dropdown-top"
                   >
                     Burley
-                  </a>
-                  <a
-                    href="#"
+                  </Link>
+                  <Link
+                    to="/products"
                     className="link-dropdown-menu-list rounded-corners-dropdown-down"
                   >
                     Oriental
-                  </a>
+                  </Link>
                 </ul>
               </div>
             )}
