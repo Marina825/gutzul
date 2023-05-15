@@ -16,7 +16,14 @@ class ModalProductDescription extends React.Component {
           <div className="modal__content-main">
             <p className=" modal__content-main-text">{text}</p>
             <div className="  modal-btn-flex">
-              <button className="button-modal">Перейти до продукції</button>
+              <button className="button-modal">
+                <a
+                  href="http://localhost:3000/products"
+                  className="href-header-buy-product"
+                >
+                  Перейти до продукції
+                </a>
+              </button>
             </div>
           </div>
         </div>

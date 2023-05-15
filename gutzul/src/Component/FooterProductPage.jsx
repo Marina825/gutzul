@@ -3,10 +3,10 @@ import iconInstagram from "../img/icons-instagram.png";
 import iconsTelegram from "../img/icons-telegram.png";
 import imgGutzul from "../img/img-gutzul.jpg";
 
-class Footer extends Component {
+class FooterProductPage extends Component {
   render() {
     return (
-      <div className="footer rt">
+      <div className="footer footer-product-page">
         <a name="contact"></a>
         <div className="footer-content">
           <div className="footer-description-gutzul">
@@ -48,4 +48,4 @@ class Footer extends Component {
     );
   }
 }
-export default Footer;
+export default FooterProductPage;

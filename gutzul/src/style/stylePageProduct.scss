@@ -1,0 +1,61 @@
+@media (min-width: 993px) {
+  .product-page {
+    width: auto;
+    height: auto;
+    background-size: cover;
+    background-image: url("../img/image-products-fon.jpg");
+  }
+  .product-section-name {
+    font-family: "Steppe";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 54px;
+    letter-spacing: 0.5px;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 992px) {
+  .product-page {
+    width: auto;
+    height: auto;
+    background-size: cover;
+    background-image: url("../img/image-products-fon.jpg");
+  }
+  .product-section-name {
+    font-family: "Steppe";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 54px;
+    letter-spacing: 0.5px;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+  }
+}
+@media (min-width: 320px) and (max-width: 480px) {
+  .product-page {
+    width: auto;
+    height: auto;
+    background-size: cover;
+    background-image: url("../img/image-products-fon.jpg");
+  }
+  .product-section-name {
+    font-family: "Steppe";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 54px;
+    letter-spacing: 0.5px;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+  }
+}

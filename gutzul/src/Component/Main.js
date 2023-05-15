@@ -3,7 +3,6 @@ import ModalProductDescription from "./ModalProductDescription";
 import arrows from "../img/arrows.png";
 import imageBurley from "../img/img-burley.jpg";
 import imageOriental from "../img/img-oriental.jpg";
-// import op from "../img/op.png"
 class Main extends Component {
   state = {
     firstModalOpen: false,

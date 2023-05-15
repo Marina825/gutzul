@@ -1,4 +1,5 @@
-p {
+@media (min-width: 993px) {
+  p {
     margin-top: 0px;
     margin-bottom: 0px;
   }
@@ -6,31 +7,51 @@ p {
     background: #ffffff;
     box-shadow: 0px 0px 23px rgba(0, 0, 0, 0.15);
     border-radius: 20px;
-    width: 230px;
-    height: 300px;
-    margin-right: 30px;
+    min-width: 300px;
+    min-height: 380px;
     margin-bottom: 30px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-content: center;
+    text-align: center;
+    flex-direction: column;
   }
+
   .cards {
     display: flex;
     flex-wrap: wrap;
+    max-width: 1300px;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: flex-start;
+  }
+  .cards-Oriental {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1300px;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: flex-start;
+  }
+
+  .cards-content {
+    display: flex;
     justify-content: center;
-    // position: absolute;
-    margin-top: 200px;
+    align-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: flex-start;
   }
   .img-cards {
-    width: 200px;
-    height: 210px;
+    width: 240px;
+    height: 250px;
   }
   .card-header {
-      width: 230px;
-      display: flex;
-      align-items: flex-end;
-      justify-content: space-around;
+    min-width: 220px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
   }
   .product-name {
     font-family: "Steppe";
@@ -41,30 +62,271 @@ p {
     letter-spacing: 0.3px;
     color: #004f44;
   }
-  .op {
-      display: flex;
-      flex-direction: column;
-      justify-content: space-between;
-      height: 60px;
+  .product-name-card {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
   }
-  .button-card{
-      font-family: 'Steppe';
-      font-size: 16px;
-      line-height: 19px;
-      color: #09594e;
-      width: 79px;
-      height: 30px;
-      background-color: white;
+  .description-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 80px;
   }
-  .card-price{
-      font-family: 'Steppe';
-      font-style: normal;
-      font-weight: 400;
-      font-size: 20px;
-      line-height: 24px;
-      letter-spacing: 0.3px;
-      color: #004F44;
+  .bottom-card {
+    display: flex;
+    justify-content: space-between;
+
+    padding-top: 13px;
   }
-  .test{
-  background-color: red;
+  .button-card {
+    font-family: "Steppe";
+    font-size: 16px;
+    line-height: 19px;
+    color: #09594e;
+    width: 79px;
+    height: 30px;
+    background-color: white;
   }
+  .card-price {
+    font-family: "Steppe";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    color: #004f44;
+  }
+  .footer-productPage {
+    background: none;
+  }
+  .footer-productPage {
+    background: none;
+    padding-top: 205px;
+    min-width: 0;
+  }
+}
+@media (min-width: 481px) and (max-width: 992px) {
+  p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  .card {
+    background: #ffffff;
+    box-shadow: 0px 0px 23px rgba(0, 0, 0, 0.15);
+    border-radius: 20px;
+    min-width: 230px;
+    max-width: 270px;
+    min-height: 340px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    flex-direction: column;
+    margin-right: 10px;
+  }
+
+  .cards {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1300px;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: flex-start;
+    margin-left: 10px;
+  }
+  .cards-Oriental {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1300px;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: flex-start;
+  }
+
+  .cards-content {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .img-cards {
+    min-width: 180px;
+    max-width: 200px;
+    height: auto;
+    min-height: 190px;
+    max-height: 200px;
+  }
+  .card-header {
+    max-width: 210px;
+    display: flex;
+    min-height: 60px;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  .product-name {
+    font-family: "Steppe";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    color: #004f44;
+  }
+  .product-name-card {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .description-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 80px;
+  }
+  .bottom-card {
+    display: flex;
+    justify-content: space-between;
+  }
+  .button-card {
+    font-family: "Steppe";
+    font-size: 16px;
+    line-height: 19px;
+    color: #09594e;
+    width: 79px;
+    height: 30px;
+    background-color: white;
+  }
+  .card-price {
+    font-family: "Steppe";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    color: #004f44;
+  }
+  .footer-productPage {
+    background: none;
+    padding-top: 185px;
+  }
+}
+@media (min-width: 320px) and (max-width: 480px) {
+  p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  .card {
+    background: #ffffff;
+    box-shadow: 0px 0px 23px rgba(0, 0, 0, 0.15);
+    border-radius: 20px;
+    min-width: 160px;
+    max-width: 230px;
+    min-height: 310px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    flex-direction: column;
+    margin-right: 10px;
+  }
+
+  .cards {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1300px;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: flex-start;
+    margin-left: 10px;
+  }
+  .cards-Oriental {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1300px;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: flex-start;
+  }
+
+  .cards-content {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .img-cards {
+    min-width: 150px;
+    max-width: 150px;
+    height: auto;
+    min-height: 170px;
+    max-height: 170px;
+  }
+  .card-header {
+    max-width: 210px;
+    display: flex;
+    min-height: 60px;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  .product-name {
+    font-family: "Steppe";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    color: #004f44;
+  }
+  .product-name-card {
+    display: flex;
+    flex-direction: column;
+    min-height: 55px;
+    max-width: 100px;
+    align-items: flex-start;
+  }
+  .product-nameTranslation {
+    font-size: 11px;
+  }
+  .description-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 80px;
+  }
+  .bottom-card {
+    display: flex;
+    justify-content: space-between;
+  }
+  .button-card {
+    font-family: "Steppe";
+    font-size: 16px;
+    line-height: 19px;
+    color: #09594e;
+    width: 70px;
+    height: 30px;
+    background-color: white;
+    align-items: center;
+  }
+  .card-price {
+    font-family: "Steppe";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    color: #004f44;
+  }
+  .footer-productPage {
+    background: none;
+    padding-top: 155px;
+  }
+}
