@@ -9,7 +9,7 @@ function App() {
         <Route path="/gutzul" element={<Appendix />} />
         <Route index element={<Appendix />} />
         <Route path="aboutUs" element={<AboutUs />} />
-        <Route path="products" element={<ProductPage />} />
+        <Route path="https://marina825.github.io/products" element={<ProductPage />} />
       </Routes>
     </BrowserRouter>
   );
