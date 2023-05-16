@@ -382,7 +382,7 @@
     height: 400px;
     display: flex;
     flex-direction: column;
-    margin-left: 30px;
+    margin-left: 20px;
     justify-content: space-around;
   }
   .text-head {
@@ -429,14 +429,13 @@
   .text-header {
     font-family: "Roboto Slab", serif;
     font-style: normal;
-    font-size: 13px;
-    line-height: 14px;
+    font-size: 14px;
+    line-height: 20px;
     color: white;
     max-width: 230px;
     min-width: 120px;
     min-height: 80px;
     margin-left: 20px;
-    margin-bottom: 30px;
     margin-right: 20px;
   }
   .image-header-gutzul {

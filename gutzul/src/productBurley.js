@@ -8,7 +8,7 @@ export const productsBurley = [
   },
   {
     id: 2,
-    image: require("./images/Behemoth.jpg"),
+    image: require("./images/Behemoth.jpeg"),
     name: "Behemoth",
     nameTranslation: "(чай з бергамотом)",
     price: 250,

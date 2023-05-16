@@ -28,7 +28,7 @@ class Star extends React.Component {
     const { favorite } = this.state;
     return (
       <div onClick={this.handleFavoriteClick}>
-        <span className="iconStar" style={{ color: favorite ? "black" : "yellow" }}>★</span>
+        <span className="iconStar" style={{ color: favorite ? "yellow" : "black" }}>★</span>
         
       </div>
     );

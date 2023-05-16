@@ -32,7 +32,7 @@ export const productsOriental = [
     image: require("./images/Jagermeister.jpg"),
     name: "Jagermeister",
     nameTranslation: "(безаромка)",
-    price: 400,
+    price: 200,
   },
   {  id:6,
     image: require("./images/Cactus-Lime.jpg"),
