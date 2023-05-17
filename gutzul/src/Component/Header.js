@@ -1,5 +1,6 @@
 import React from "react";
-import imgHeader from "../img/tabak2.jpg";
+import { Link } from "react-router-dom";
+import imgHeader from "../img/img-tobacco-header.jpg";
 import imgGutzul from "../img/img-gutzul.jpg";
 import HeaderNavList from "./HeaderNavList";
 const Header = () => {
@@ -10,7 +11,7 @@ const Header = () => {
       <div className="header-main">
         <img src={imgGutzul} alt="#" className="image-header-gutzul"></img>
         <div className="link-header">
-          <button className="button-head">Для партнерів</button>
+          <button className="button-head"><Link to="/partners" className="href-header-partners">Для партнерів</Link></button>
         </div>
         <div className="flex-text-heder">
           <img src={imgHeader} alt="tobacco" className="img-tobacco"></img>

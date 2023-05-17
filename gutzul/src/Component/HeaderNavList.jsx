@@ -51,7 +51,7 @@ const HeaderNavList = () => {
               <Link to="/products" className="link-dropdown-header-menu-list">
                 Наша продукція
               </Link>
-              <a href="#" className="link-dropdown-header-menu-list">
+              <a href="#contact" className="link-dropdown-header-menu-list">
                 Контакти
               </a>
             </div>

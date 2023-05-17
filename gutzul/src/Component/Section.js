@@ -3,6 +3,7 @@ import imgSection from "../img/tobacco.jpg";
 import iconBusiness from "../img/icon-business.png";
 import iconHookah from "../img/icon-hookah.png";
 import iconLeaves from "../img/icon-leaves.png";
+import { Link } from "react-router-dom";
 class Section extends Component {
   render() {
     return (
@@ -43,10 +44,10 @@ class Section extends Component {
           </div>
         </div>
 
-        <div className="qw">
-          <div className="qq">
+        <div className="section-left-mobile">
+          <div className="imageInRectangle-mobile">
             <div className="rectangles"></div>
-            <img src={imgSection} alt="#" className="imm"></img>
+            <img src={imgSection} alt="#" className="image-section"></img>
           </div>
           <div className="section-main-left">
             <div className="text-section">
@@ -74,7 +75,12 @@ class Section extends Component {
                 Gutzul tobacco.
               </div>
             </div>
-            <button className="button-header"> Дізнатися більше</button>
+            <button className="button-header">
+              {" "}
+              <Link to="/aboutUs" className="href-header-buy-product">
+                Дізнатися більше{" "}
+              </Link>{" "}
+            </button>
           </div>
         </div>
 

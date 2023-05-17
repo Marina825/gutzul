@@ -125,7 +125,6 @@ const ProductPage = () => {
           ))}
         </div>
       </div>
-      <a name="http://localhost:3000/products"></a>
       <FooterProductPage />
     </div>
   );

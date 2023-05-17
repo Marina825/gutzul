@@ -30,7 +30,7 @@ class Main extends Component {
         <div className="main-header">тютюн</div>
         <a name="buy-product"></a>
         <div className="product-main">
-          <div className="berli-block">
+          <div className="burley-block">
             <img src={imageBurley} alt="#" className="image-product"></img>
             <div className="content-block">
               <h3 className="head-product-block">Burley</h3>
