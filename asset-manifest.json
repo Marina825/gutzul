@@ -1,12 +1,13 @@
 {
   "files": {
-    "main.css": "/gutzul/static/css/main.78032832.css",
-    "main.js": "/gutzul/static/js/main.d8223d9b.js",
+    "main.css": "/gutzul/static/css/main.2646fdc1.css",
+    "main.js": "/gutzul/static/js/main.e80cb623.js",
     "static/media/Behemoth.jpeg": "/gutzul/static/media/Behemoth.3d118c5989136c56bfbd.jpeg",
     "static/media/img-burley.jpg": "/gutzul/static/media/img-burley.0c7a5a66d84090a48cc8.jpg",
     "static/media/image-header.jpg": "/gutzul/static/media/image-header.a32fcf9c1e683b45bcf2.jpg",
     "static/media/Citron.jpg": "/gutzul/static/media/Citron.62f9d19bffae56654c0b.jpg",
     "static/media/tobacco.jpg": "/gutzul/static/media/tobacco.c1db06289cd40ec5a6f9.jpg",
+    "static/media/background-aboutUs.jpg": "/gutzul/static/media/background-aboutUs.bdcb5aacf593e5b5d810.jpg",
     "static/media/Old-Cherry.jpg": "/gutzul/static/media/Old-Cherry.78a55013e73a3ca72571.jpg",
     "static/media/Blueberry-Mint.jpg": "/gutzul/static/media/Blueberry-Mint.22e6cc852089dd7c70bb.jpg",
     "static/media/Ice-Apple.jpg": "/gutzul/static/media/Ice-Apple.0b11a6a88313fe124b92.jpg",
@@ -14,6 +15,7 @@
     "static/media/Lemon-Drops.jpg": "/gutzul/static/media/Lemon-Drops.fc5edcd2932f415c6cc4.jpg",
     "static/media/Monomango.jpg": "/gutzul/static/media/Monomango.c1f7c3f5fb88b9aff01d.jpg",
     "static/media/Gluhwein.jpg": "/gutzul/static/media/Gluhwein.9273cef0156cbec07673.jpg",
+    "static/media/background-forPartners.jpg": "/gutzul/static/media/background-forPartners.5d4e27459ed3e3ccda58.jpg",
     "static/media/Peach-Three.jpg": "/gutzul/static/media/Peach-Three.599a4d95d8ae38a7b6c0.jpg",
     "static/media/Orangerie.jpg": "/gutzul/static/media/Orangerie.9e3be72e5e5913d2ecd5.jpg",
     "static/media/Citron2.0.jpg": "/gutzul/static/media/Citron2.0.fa98f595e09705425b6e.jpg",
@@ -23,13 +25,13 @@
     "static/media/Cactus-Lime.jpg": "/gutzul/static/media/Cactus-Lime.9738caa6656f77c12970.jpg",
     "static/media/img-gutzul.jpg": "/gutzul/static/media/img-gutzul.ac1a0520cac72a58ac3b.jpg",
     "static/media/image-products-fon.jpg": "/gutzul/static/media/image-products-fon.1e557ea56e7a719a4c3d.jpg",
-    "static/media/tabak2.jpg": "/gutzul/static/media/tabak2.f4e2a2d80808f6ee9bcb.jpg",
+    "static/media/img-tobacco-header.jpg": "/gutzul/static/media/img-tobacco-header.f4e2a2d80808f6ee9bcb.jpg",
     "index.html": "/gutzul/index.html",
-    "main.78032832.css.map": "/gutzul/static/css/main.78032832.css.map",
-    "main.d8223d9b.js.map": "/gutzul/static/js/main.d8223d9b.js.map"
+    "main.2646fdc1.css.map": "/gutzul/static/css/main.2646fdc1.css.map",
+    "main.e80cb623.js.map": "/gutzul/static/js/main.e80cb623.js.map"
   },
   "entrypoints": [
-    "static/css/main.78032832.css",
-    "static/js/main.d8223d9b.js"
+    "static/css/main.2646fdc1.css",
+    "static/js/main.e80cb623.js"
   ]
 }
