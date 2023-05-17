@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import imgHeader from "../img/img-tobacco-header.jpg";
-import imgGutzul from "../img/img-gutzul.jpg";
+import imgGutzul from "../img/logo-gutzul.png";
 import HeaderNavList from "./HeaderNavList";
 const Header = () => {
 
