@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/gutzul/static/css/main.2646fdc1.css",
-    "main.js": "/gutzul/static/js/main.e80cb623.js",
+    "main.css": "/gutzul/static/css/main.f3cdb524.css",
+    "main.js": "/gutzul/static/js/main.33c099e4.js",
     "static/media/Behemoth.jpeg": "/gutzul/static/media/Behemoth.3d118c5989136c56bfbd.jpeg",
     "static/media/img-burley.jpg": "/gutzul/static/media/img-burley.0c7a5a66d84090a48cc8.jpg",
     "static/media/image-header.jpg": "/gutzul/static/media/image-header.a32fcf9c1e683b45bcf2.jpg",
@@ -27,11 +27,11 @@
     "static/media/image-products-fon.jpg": "/gutzul/static/media/image-products-fon.1e557ea56e7a719a4c3d.jpg",
     "static/media/img-tobacco-header.jpg": "/gutzul/static/media/img-tobacco-header.f4e2a2d80808f6ee9bcb.jpg",
     "index.html": "/gutzul/index.html",
-    "main.2646fdc1.css.map": "/gutzul/static/css/main.2646fdc1.css.map",
-    "main.e80cb623.js.map": "/gutzul/static/js/main.e80cb623.js.map"
+    "main.f3cdb524.css.map": "/gutzul/static/css/main.f3cdb524.css.map",
+    "main.33c099e4.js.map": "/gutzul/static/js/main.33c099e4.js.map"
   },
   "entrypoints": [
-    "static/css/main.2646fdc1.css",
-    "static/js/main.e80cb623.js"
+    "static/css/main.f3cdb524.css",
+    "static/js/main.33c099e4.js"
   ]
 }
