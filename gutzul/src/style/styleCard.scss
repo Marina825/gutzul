@@ -105,6 +105,9 @@
     padding-top: 205px;
     min-width: 0;
   }
+  .iconStar{
+    font-size: 22px;
+  }
 }
 @media (min-width: 481px) and (max-width: 992px) {
   p {
@@ -213,6 +216,9 @@
   .footer-productPage {
     background: none;
     padding-top: 185px;
+  }
+  .iconStar{
+    font-size: 22px;
   }
 }
 @media (min-width: 320px) and (max-width: 480px) {
@@ -330,5 +336,8 @@
   .footer-productPage {
     background: none;
     padding-top: 155px;
+  }
+  .iconStar{
+    font-size: 22px;
   }
 }

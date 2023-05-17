@@ -1,8 +1,95 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=PT+Sans&display=swap");
 @media (min-width: 993px) {
+  .content-forPartners {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .head-forPartners {
+    width: auto;
+    min-width: 320px;
+    height: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url("/img/background-forPartners.jpg");
+    padding-bottom: 50px;
+  }
+  .text-content-forPartners {
+    background-color: aliceblue;
+    opacity: 0.8;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 10px;
+    padding: 20px 15px 20px 15px;
+  }
+  .text-content-forPartners {
+    list-style-type: disc;
+    font-size: 20px;
+    font-family: "Nunito", sans-serif;
+    text-align: justify;
+    font-weight: 900;
+    min-width: 900px;
+  }
+  .list-partners {
+    padding-bottom: 10px;
+    font-family: "Nunito", sans-serif;
+    padding-left: 3px;
+    color: black;
+  }
+  .instagram-partners {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 5px;
+  }
+  .href-header-partners {
+    color: #f8d24e;
+    font-family: "Seymour One";
+  }
 }
 @media (min-width: 481px) and (max-width: 992px) {
+  .content-forPartners {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .head-forPartners {
+    width: auto;
+    min-width: 320px;
+    height: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url("/img/background-forPartners.jpg");
+    padding-bottom: 50px;
+  }
+  .text-content-forPartners {
+    background-color: aliceblue;
+    opacity: 0.8;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 10px;
+    padding: 20px 15px 20px 15px;
+  }
+  .text-content-forPartners {
+    list-style-type: disc;
+    font-size: 16px;
+    font-family: "Nunito", sans-serif;
+    text-align: justify;
+    font-weight: 900;
+  }
+  .list-partners {
+    padding-bottom: 10px;
+    font-family: "Nunito", sans-serif;
+    padding-left: 3px;
+    color: black;
+  }
+  .instagram-partners {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 5px;
+  }
   .href-header-partners {
     color: #f8d24e;
     font-family: "Seymour One";
@@ -23,8 +110,8 @@
     min-width: 320px;
     height: auto;
     background-size: cover;
-background-repeat: no-repeat;
-background-position: center;
+    background-repeat: no-repeat;
+    background-position: center;
     background-image: url("/img/background-forPartners.jpg");
     padding-bottom: 50px;
   }

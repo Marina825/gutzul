@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import iconInstagram from "../img/icons-instagram.png";
 import iconsTelegram from "../img/icons-telegram.png";
 import imgGutzul from "../img/img-gutzul.jpg";
-
 class Footer extends Component {
   render() {
     return (
@@ -46,6 +45,7 @@ class Footer extends Component {
             </div>
           </div>
           <div className="bottom-line-footer"></div>
+          
           <div id="end"></div>
           <div className="footer-bottom">
             © 2023 - Gutzul. All Rights Reserved.{" "}

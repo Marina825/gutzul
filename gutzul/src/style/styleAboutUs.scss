@@ -1,8 +1,110 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=PT+Sans&display=swap");
 @media (min-width: 993px) {
+  .head-aboutUs {
+    width: auto;
+    min-width: 320px;
+    height: auto;
+    // background-size: cover;
+    background-image: url("/img/background-aboutUs.jpg");
+    padding-bottom: 50px;
+  }
+  .content-aboutUs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .header-aboutUs {
+    font-family: "Nunito", sans-serif;
+    color: black;
+    font-weight: 800;
+    font-size: 22px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    background-color: aliceblue;
+    opacity: 0.8;
+    border-radius: 10px;
+    padding: 8px 15px;
+  }
+  .text-content-aboutUs {
+    background-color: aliceblue;
+    opacity: 0.8;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 10px;
+    padding: 20px 15px 20px 15px;
+  }
+  .text-content {
+    font-size: 20px;
+    font-family: "Nunito", sans-serif;
+    text-align: justify;
+  }
+  .text-content:first-letter {
+    font-size: 20px;
+    padding-left: 10px;
+  }
+
+  .header-contect-text {
+    font-family: "PT Sans", sans-serif;
+    color: rgb(238, 0, 0);
+    padding: 10px 0px;
+    text-align: center;
+    font-weight: 900;
+    font-size: 20px;
+  }
 }
 @media (min-width: 481px) and (max-width: 992px) {
+  .head-aboutUs {
+    width: auto;
+    min-width: 320px;
+    height: auto;
+    // background-size: cover;
+    background-image: url("/img/background-aboutUs.jpg");
+    padding-bottom: 50px;
+  }
+  .content-aboutUs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .header-aboutUs {
+    font-family: "Nunito", sans-serif;
+    color: black;
+    font-weight: 800;
+    font-size: 22px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    background-color: aliceblue;
+    opacity: 0.8;
+    border-radius: 10px;
+    padding: 8px 15px;
+  }
+  .text-content-aboutUs {
+    background-color: aliceblue;
+    opacity: 0.8;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 10px;
+    padding: 20px 15px 20px 15px;
+  }
+  .text-content {
+    font-size: 17px;
+    font-family: "Nunito", sans-serif;
+    text-align: justify;
+  }
+  .text-content:first-letter {
+    font-size: 20px;
+    padding-left: 10px;
+  }
+
+  .header-contect-text {
+    font-family: "PT Sans", sans-serif;
+    color: rgb(238, 0, 0);
+    padding: 10px 0px;
+    text-align: center;
+    font-weight: 900;
+    font-size: 17px;
+  }
 }
 @media (min-width: 320px) and (max-width: 480px) {
   .head-aboutUs {

@@ -1,4 +1,6 @@
 import React from "react";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import sr from "../img/star-solid.svg";
 class Star extends React.Component {
   constructor(props) {
     super(props);
@@ -30,9 +32,9 @@ class Star extends React.Component {
       <div onClick={this.handleFavoriteClick}>
         <span
           className="iconStar"
-          style={{ color: favorite ? "black" : "yellow" }}
+          style={{ color: favorite ? "black" : "orange" }}
         >
-          ★
+      ★
         </span>
       </div>
     );

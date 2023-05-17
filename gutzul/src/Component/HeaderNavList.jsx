@@ -51,8 +51,8 @@ const HeaderNavList = () => {
               <Link to="/products" className="link-dropdown-header-menu-list">
                 Наша продукція
               </Link>
-              <Link to="/#end" className="link-dropdown-header-menu-list">
-                Контакти
+              <Link to="/partners" className="link-dropdown-header-menu-list">
+                Для партнерів
               </Link>
             </div>
           </ul>
