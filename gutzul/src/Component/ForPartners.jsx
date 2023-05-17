@@ -19,7 +19,7 @@ export const ForPartners = () => (
             {" "}
             Оптова ціна складає для лінійки орієнтал - 400грн, 500грн
           </li>
-          <li className="text-content-forPartners">
+          <li className="text-content-forPartners text-content-forPartners-instagram">
             Інстаграм акаунти наших існуючих партнерів:
           </li>
           <div className="instagram-partners">

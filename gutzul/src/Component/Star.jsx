@@ -1,6 +1,4 @@
 import React from "react";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import sr from "../img/star-solid.svg";
 class Star extends React.Component {
   constructor(props) {
     super(props);
