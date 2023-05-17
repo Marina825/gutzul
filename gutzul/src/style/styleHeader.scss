@@ -165,6 +165,8 @@
   .header {
     width: auto;
     height: 475px;
+    background-position: 50%;
+    background-repeat: no-repeat;
     background-size: cover;
     background-image: url("/img/image-header.jpg");
   }
@@ -332,7 +334,6 @@
   .header {
     width: auto;
     height: 475px;
-
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;

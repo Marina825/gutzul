@@ -18,10 +18,9 @@ class ModalProductDescription extends React.Component {
             <p className=" modal__content-main-text">{text}</p>
             <div className="  modal-btn-flex">
               <button className="button-modal">
-                <Link
-                  to={{ pathname: "/products", hash: "#top" }}
-                  className="href-main-product"
-                >
+              <Link to="/products#top" className="href-main-product">
+                  
+                
                   Перейти до продукції
                 </Link>
               </button>

@@ -11,7 +11,7 @@ const Header = () => {
       <div className="header-main">
         <img src={imgGutzul} alt="#" className="image-header-gutzul"></img>
         <div className="link-header">
-          <button className="button-head"><Link to="/partners" className="href-header-partners">Для партнерів</Link></button>
+          <button className="button-head"><Link to="/partners#top" className="href-header-partners">Для партнерів</Link></button>
         </div>
         <div className="flex-text-heder">
           <img src={imgHeader} alt="tobacco" className="img-tobacco"></img>

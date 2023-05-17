@@ -6,7 +6,7 @@ import imgGutzul from "../img/img-gutzul.jpg";
 class Footer extends Component {
   render() {
     return (
-      <div className="footer rt">
+      <div className="footer">
         <div id="contact">
           <div className="footer-content">
             <div className="footer-description-gutzul">
@@ -39,13 +39,14 @@ class Footer extends Component {
                   <img
                     src={iconsTelegram}
                     alt="logo-telegram"
-                    className="icon-contact-gutzul"
+                    className="icon-contact-gutzul-telegram"
                   ></img>
                 </a>
               </div>
             </div>
           </div>
           <div className="bottom-line-footer"></div>
+          <div id="end"></div>
           <div className="footer-bottom">
             © 2023 - Gutzul. All Rights Reserved.{" "}
           </div>

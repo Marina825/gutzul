@@ -34,7 +34,7 @@ class FooterProductPage extends Component {
               <img
                 src={iconsTelegram}
                 alt="logo-telegram"
-                className="icon-contact-gutzul"
+                className="icon-contact-gutzul-telegram"
               ></img>
             </a>
           </div>

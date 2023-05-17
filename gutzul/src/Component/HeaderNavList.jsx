@@ -41,7 +41,7 @@ const HeaderNavList = () => {
                 onClick={toggleDropdownMenu}
               >
                 {" "}
-                <Link to="/" className="link-dropdown-header-menu-list">
+                <Link to="/#bottom" className="link-dropdown-header-menu-list">
                   Головна
                 </Link>
               </button>
@@ -51,9 +51,9 @@ const HeaderNavList = () => {
               <Link to="/products" className="link-dropdown-header-menu-list">
                 Наша продукція
               </Link>
-              <a href="#contact" className="link-dropdown-header-menu-list">
+              <Link to="/#end" className="link-dropdown-header-menu-list">
                 Контакти
-              </a>
+              </Link>
             </div>
           </ul>
         </div>
@@ -91,7 +91,7 @@ const HeaderNavList = () => {
                 <div id="triangle"></div>
                 <ul className="dropdown-menu-list">
                   <Link
-                    to="/products"
+                    to="/products#top"
                     className="link-dropdown-menu-list rounded-corners-dropdown-top"
                   >
                     Burley
@@ -106,9 +106,9 @@ const HeaderNavList = () => {
               </div>
             )}
           </div>
-          <a href="#contact" className="header-list-li">
+          <Link to="/#end" className="header-list-li">
             Контакти
-          </a>
+          </Link>
 
           <a href="#buy-product" className="href-header-buy-product">
             {" "}
@@ -116,7 +116,10 @@ const HeaderNavList = () => {
               Купити
             </button>
             <button className="button-header-mobile-basket">
-              <img src={iconsBasket}></img>
+              <Link to="/products">
+                {" "}
+                <img src={iconsBasket}></img>
+              </Link>
             </button>
           </a>
         </ul>

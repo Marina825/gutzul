@@ -77,7 +77,7 @@ class Section extends Component {
             </div>
             <button className="button-header">
               {" "}
-              <Link to="/aboutUs" className="href-header-buy-product">
+              <Link to="/aboutUs#top" className="href-header-buy-product">
                 Дізнатися більше{" "}
               </Link>{" "}
             </button>

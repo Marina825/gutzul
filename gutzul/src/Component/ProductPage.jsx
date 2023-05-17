@@ -45,6 +45,7 @@ const ProductPage = () => {
     <div className="product-page">
       <HeaderNavList />
       <div className="product-section-name">Burley</div>
+      <div id="top"></div>
       <div className="cards-content">
         <div className="cards">
           {toggleStateModalBurley && (
